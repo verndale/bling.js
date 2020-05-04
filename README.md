@@ -15,7 +15,7 @@ npm i @verndale/bling.js
 ### Yarn installation
 
 ```bash
-npm i @verndale/bling.js
+yarn add @verndale/bling.js
 ```
 
 ### JS
