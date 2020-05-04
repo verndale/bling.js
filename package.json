@@ -1,0 +1,27 @@
+{
+  "name": "@verndale/bling.js",
+  "version": "1.0.0",
+  "description": "Because you want the $ of jQuery without the jQuery",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/verndale/bling.js"
+  },
+  "scripts": {
+    "build": "babel src/index.js -o lib/index.js"
+  },
+  "keywords": [
+    "jquery",
+    "selector",
+    "events",
+    "bling.js"
+  ],
+  "author": "Carlos Viteri",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "babel-preset-minify": "^0.5.1"
+  }
+}
