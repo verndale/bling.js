@@ -9,13 +9,13 @@ Originally created by [Paul Irish](https://gist.github.com/paulirish/12fb951a8b8
 ### NPM installation
 
 ```bash
-npm i @verndale/object-fit
+npm i @verndale/bling.js
 ```
 
 ### Yarn installation
 
 ```bash
-npm i @verndale/object-fit
+npm i @verndale/bling.js
 ```
 
 ### JS
