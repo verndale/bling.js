@@ -1,6 +1,6 @@
 {
   "name": "@verndale/bling.js",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Because you want the $ of jQuery without the jQuery",
   "main": "lib/index.js",
   "repository": {

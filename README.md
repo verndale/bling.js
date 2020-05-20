@@ -26,15 +26,15 @@ import "@verndale/bling.js"
 
 ## Docs
 
-| Vanilla JavaScript                                                         | bling.js                             |
-| -------------------------------------------------------------------------- | ------------------------------------ |
-| `document.querySelector('selector')`                                       | `$('selector')`                      |
-| `node.querySelector('selector')`                                           | `node.$('selector')`                 |
-| `document.querySelectorAll('selector')`                                    | `$$('selector')`                     |
-| `node.querySelectorAll('selector')`                                        | `node.$$('selector')`                |
-| `Array.from(document.querySelectorAll('selector')).filter(callback)` *     | `$$('selector').filter(callback)` *  |
-| `window.addEventListener('eventName', callback)`                           | `window.on('eventName', callback)`   |
-| `node.addEventListener('eventName', callback)`                             | `node.on('eventName', callback)`     |
-| `nodeList.forEach((node) => node.addEventListener('eventName', callback))` | `nodeList.on('eventName', callback)` |
+| Vanilla JavaScript                                                         | bling.j s                             |
+| -------------------------------------------------------------------------- | ------------------------------------- |
+| `document.querySelector('selector')`                                       | `_$('selector')`                      |
+| `node.querySelector('selector')`                                           | `node._$('selector')`                 |
+| `document.querySelectorAll('selector')`                                    | `_$$('selector')`                     |
+| `node.querySelectorAll('selector')`                                        | `node._$$('selector')`                |
+| `Array.from(document.querySelectorAll('selector')).filter(callback)` *     | `_$$('selector').filter(callback)` *  |
+| `window.addEventListener('eventName', callback)`                           | `window._on('eventName', callback)`   |
+| `node.addEventListener('eventName', callback)`                             | `node._on('eventName', callback)`     |
+| `nodeList.forEach((node) => node.addEventListener('eventName', callback))` | `nodeList._on('eventName', callback)` |
 
 > \* All array methods are available by default
